@@ -37,7 +37,7 @@ function Header(props) {
 
   function changeTheme() {
     if (currTheme === "light") {
-      props.setTheme("dark");
+            props.setTheme("dark");
       localStorage.setItem("theme", "dark");
       setCurrTheme("dark");
     } else {
@@ -48,14 +48,15 @@ function Header(props) {
   }
 
   const icon =
-    props.theme.name === "dark" ? (
-      <HiMoon
+    props.theme.name === "light" ? (
+      <CgSun
         strokeWidth={1}
         size={20}
         color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
       />
     ) : (
-      <CgSun
+
+            <HiMoon
         strokeWidth={1}
         size={20}
         color={props.theme.name === "light" ? "#F9D784" : "#A7A7A7"}
@@ -97,7 +98,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Education and Certifications
+                Education
               </NavLink>
             </li>
             <li>

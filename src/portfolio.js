@@ -10,22 +10,22 @@ const settings = {
 //Home Page
 const greeting = {
   title: "Hello.",
-  title2: "Balakrishnan",
-  logo_name: "Balakrishnan.K()",
-  nickname: "Balaji",
-  full_name: "Balakrishnan",
+  title2: "Navi",
+  logo_name: "Naveenkumar Ragupathy",
+  nickname: "Navi",
+  full_name: "Naveenkumar Ragupathy",
   subTitle:
-    "Full Stack Developer, Software Learning Enthusiast. Always learning.",
+    "Full Stack Developer, Creating Seamless Apps, Growing with Every Line.",
   resumeLink:
-    "https://drive.google.com/file/d/1bLBkjVZqrC-MoE6ExBeITQCfGogUspIS/view?usp=drive_link",
-  mail: "bala94srm@gmail.com",
+    "https://drive.google.com/file/d/1rCjc6s9PwObLaJ9n5LWeCO6PRQgp7GN6/view?usp=drive_link",
+  mail: "naveenkumar11301@gmail.com",
 };
 
 const socialMediaLinks = {
   /* Social Media Link */
-  github: "https://github.com/Balakrishnan-b10",
-  linkedin: "https://www.linkedin.com/in/balakrishnan-k-48b3ab184",
-  gmail: "bala94srm@gmail.com",
+  github: "https://github.com/naveenkumar11301r",
+  linkedin: "https://www.linkedin.com/in/naveenkumar11301/",
+  gmail: "naveenkumar11301@gmail.com",
   // gitlab: " ",
   // facebook: " ",
   // twitter: " ",
@@ -38,19 +38,19 @@ const skills = {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building responsive website front end using ReactJS and Bootstrap",
-        "⚡ Developing web applications using MERN STACK",
+        "⚡ Building responsive Mobile Application front end using ReactNative",
+        "⚡ Building dynamic mobile apps with React Native and MongoDB",
         "⚡ Backend development using NodeJS, ExpressJS and Mongodb",
       ],
       softwareSkills: [
         {
-          skillName: "HTML5",
+          skillName: "HTML",
           fontAwesomeClassname: "simple-icons:html5",
           style: {
             color: "#E34F26",
           },
         },
-        {
+                {
           skillName: "CSS3",
           fontAwesomeClassname: "fa-css3",
           style: {
@@ -65,29 +65,8 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        {
-          skillName: "Bootstrap",
-          fontAwesomeClassname: "simple-icons:bootstrap",
-          style: {
-            color: "#7377AD",
-          },
-        },
-        // {
-        //   skillName: "ExpressJS",
-        //   fontAwesomeClassname: "simple-icons:expressdotjs",
-        //   style: {
-        //     color: "white",
-        //   },
-        // },
-        {
-          skillName: "Tailwind CSS",
-          fontAwesomeClassname: "simple-icons:tailwindcss",
-          style: {
-            color: "#29B0EE",
-          },
-        },
-        {
-          skillName: "ReactJS",
+                  {
+          skillName: "React Native",
           fontAwesomeClassname: "simple-icons:react",
           style: {
             color: "#61DAFB",
@@ -107,20 +86,45 @@ const skills = {
             color: "#439743",
           },
         },
-        {
-          skillName: "Vercel",
-          fontAwesomeClassname: "simple-icons:vercel",
-          style: {
-            color: "#3DDC84",
-          },
-        },
-        {
-          skillName: "Render",
-          fontAwesomeClassname: "simple-icons:render",
-          style: {
-            color: "grey",
-          },
-        },
+        //   {
+        //   skillName: "ExpressJS",
+        //   fontAwesomeClassname: "simple-icons:expressdotjs",
+        //   style: {
+        //     color: "white",
+        //   },
+        // },
+
+        
+        // {
+        //   skillName: "Bootstrap",
+        //   fontAwesomeClassname: "simple-icons:bootstrap",
+        //   style: {
+        //     color: "#7377AD",
+        //   },
+        // },
+      
+        // {
+        //   skillName: "Tailwind CSS",
+        //   fontAwesomeClassname: "simple-icons:tailwindcss",
+        //   style: {
+        //     color: "#29B0EE",
+        //   },
+        // },
+        
+        // {
+        //   skillName: "Vercel",
+        //   fontAwesomeClassname: "simple-icons:vercel",
+        //   style: {
+        //     color: "#3DDC84",
+        //   },
+        // },
+        // {
+        //   skillName: "Render",
+        //   fontAwesomeClassname: "simple-icons:render",
+        //   style: {
+        //     color: "grey",
+        //   },
+        // },
         {
           skillName: "Netlify",
           fontAwesomeClassname: "simple-icons:netlify",
@@ -150,7 +154,7 @@ const skills = {
       fileName: "CloudInfraImg",
       skills: [
         "⚡ Experience working on multiple cloud platforms",
-        "⚡ Experience hosting and managing web apps",
+        "⚡ Experience hosting and managing mobile apps",
       ],
       softwareSkills: [
         {
@@ -205,17 +209,31 @@ const degrees = {
   degrees: [
     {
       title: "Anna University",
-      subtitle: "B.E. Mechanical Engineering",
+      subtitle: "MCA (Master of Computer Applications)",
       logo_path: "Anna_University_Logo.png",
       alt_name: "SETI",
-      duration: "2011 - 2015",
+      duration: "2021 - 2023",
       descriptions: [
-        "⚡ I have studied core subjects like Thermodynamics, Fluid Mechanics, Materials Science, and Manufacturing Processes.",
-        "⚡ Gained knowledge in advanced mechanical system design, mechanical testing, and CAD modeling techniques.",
-        "⚡ Completed various hands-on projects related to mechanical engineering, such as product design, analysis, and prototyping.",
-        "⚡ Participated in online courses and workshops focusing on automation, robotics, and advanced manufacturing technologies.",
+        "⚡ Mastered core subjects like Data Structures, Algorithms, Database Management Systems, and Software Engineering.",
+        "⚡ Gained expertise in full-stack development, cloud computing, and mobile application development techniques.",
+        "⚡ Completed hands-on projects in web and mobile app development, including e-commerce platforms and real-time applications.",
+        "⚡ Participated in online courses and workshops on emerging technologies like AI, machine learning, and DevOps.",
       ],
       website_link: "https://www.annauniv.edu/",
+    },
+        {
+      title: "Bharathiar University",
+      subtitle: "BCA (Bachelor of Computer Applications)",
+      logo_path: "bharathiar.png",
+      alt_name: "SETI",
+      duration: "2018 - 2021",
+      descriptions: [
+        "⚡ Studied core subjects like Programming in C, Java, Web Development, and Database Management Systems.",
+        "⚡ Gained proficiency in building web applications using HTML, CSS, JavaScript, and backend frameworks like Node.js.",
+        "⚡ Completed hands-on projects in software development, including mobile apps, e-commerce websites, and database-driven applications.",
+        "⚡ Participated in online courses and workshops on modern technologies like React, cloud computing, and cybersecurity fundamentals.",
+      ],
+      website_link: "https://b-u.ac.in/",
     },
   ],
 };
@@ -267,7 +285,7 @@ const experience = {
           logo_path: "Sevener.jpg",
           duration: "April 2025 - Till Date",
           location: "Bangalore",
-          description: "Develop a website using MERN STACK Technologies.",
+          description: "Develop a Application using ReactNative Technologies.",
           color: "#f10000",
         },
         {
@@ -275,43 +293,10 @@ const experience = {
           company: "Aroganam Technologies",
           company_url: "https://aroganam.com/",
           logo_path: "Aroganam.jpg",
-          duration: "July 2024 - April 2025",
+          duration: "February 2024 - April 2025",
           location: "Bangalore",
-          description: "Develop a website using MERN STACK Technologies.",
+          description: "Develop a Application using ReactNative Technologies.",
           color: "#f10000",
-        },
-        {
-          title: "Buyer",
-          company: "Suja Shoei Industries Pvt.Ltd",
-          company_url: "https://sujarubber.com/",
-          logo_path: "Suja.png",
-          duration: "August 2019 - April 2024",
-          location: "Puducherry",
-          description:
-            "An industry leader and automotive parts manufacturer with a global presence, supplying to OEMs and Tier 1 customers.",
-          color: "#2962FF",
-        },
-        {
-          title: "Buyer",
-          company: "Gestamp Automotive Chennai Pvt Ltd  ",
-          company_url: "https://www.gestamp.com/About-Us/Gestamp-in-the-world/Centers/Asia/india/Gestamp-Chennai",
-          logo_path: "Gestamp.png",
-          duration: "April 2017 - April 2019",
-          location: "Chennai",
-          description:
-            "Gestamp is an international group specialized in the design, development and manufacture of metal automotive components.",
-          color: "#2962FF",
-        },
-        {
-          title: "Gear Assembly",
-          company: "Rane (Madras) Limited",
-          company_url: "https://ranegroup.com/rml-steering-and-linkage-business/",
-          logo_path: "Rane.avif",
-          duration: "December 2015 - December 2016",
-          location: "Puducherry",
-          description:
-            "Pioneer in manufacturing of Steering and suspension systems for Automotive industry.",
-          color: "#2962FF",
         },
       ],
     },
@@ -320,11 +305,11 @@ const experience = {
       experiences: [
         {
           title: "Full-Stack Developer",
-          company: "Entri Elevate",
-          company_url: "https://entri.app/",
-          logo_path: "Entri.jpeg",
-          duration: "March 2024 - October 2024",
-          location: "Work From Home",
+          company: "Qtree Technologies",
+          company_url: "https://www.qtreetechnologies.in/",
+          logo_path: "Qtree.jpeg",
+          duration: "November 2023 - January 2024",
+          location: "Onsite",
           description: "A Full Stack Developer is a software developer who has the skills and knowledge to work on both the front-end (client side) and back-end (server side) of web applications.",
           color: "#56A4D3",
         },
@@ -337,7 +322,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create MERN projects. Below are some of my projects.",
+    "My projects makes use of vast variety of latest technology tools. My best experience is to create Mobile Application projects. Below are some of my projects.",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -345,7 +330,7 @@ const projectsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "Photo.jpg",
+    profile_image_path: "Navi1.png",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   },
@@ -361,13 +346,13 @@ const contactPageData = {
 const projects = {
   data: [
     {
-      name: "Food Order Website",
-      url: "https://taupe-douhua-032726.netlify.app/",
+      name: "Timesheet",
+      // url: "https://taupe-douhua-032726.netlify.app/",
       description:
-        "Food Order website made with ReactJS, Nodejs, Expressjs, MongoDB and implement CRUD operations.",
+        "Created a timesheet app for admins to assign projects to team leaders, who can delegate tasks to members.",
       languages: [
         {
-          name: "React.js",
+          name: "ReactNative.js",
           iconifyClass: "logos-react",
         },
         {
@@ -385,18 +370,14 @@ const projects = {
       ],
     },
     {
-      name: "Signup Form",
-      url: "https://delicate-croissant-270ede.netlify.app/",
+      name: "UserVoice",
+      // url: "https://delicate-croissant-270ede.netlify.app/",
       description:
-        "Signup Form made with ReactJS(React Hook Form) and Bootstrap Framework.",
+        "Designed and deployed an intuitive messaging app with reliable voice call functionality, improving user engagement and personal connectivity..",
       languages: [
         {
-          name: "React.js",
+          name: "ReactNative.js",
           iconifyClass: "logos-react",
-        },
-        {
-          name: "Bootstrap",
-          iconifyClass: "devicon-bootstrap",
         },
         {
           name: "Node.js",
@@ -441,113 +422,13 @@ const projects = {
       ],
     },
     {
-      name: "Analog Clock",
-      url: "https://balakrishnan-b10.github.io/clockmodule/",
-      description: "Analog Clock  made with HTML ,CSS, Javascript.",
+      name: "Cropsmile",
+      // url: "https://balakrishnan-b10.github.io/clockmodule/",
+      description: "Created Cropsmile, an agritech platform designed to connect farmers, startups, and investors.",
       languages: [
         {
-          name: "HTML5",
-          iconifyClass: "devicon-html5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "devicon-css3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-      ],
-    },
-    {
-      name: "JavaScript using function",
-      url: "https://balakrishnan-b10.github.io/JavaScript-using-function/",
-      description:
-        "Student mark calculation made with HTML5, CSS3, Javascript, ReactJS and Bootstrap.",
-      languages: [
-        {
-          name: "React.js",
+          name: "ReactNative.js",
           iconifyClass: "logos-react",
-        },
-        {
-          name: "HTML5",
-          iconifyClass: "devicon-html5",
-        },
-        {
-          name: "CSS3",
-          iconifyClass: "devicon-css3",
-        },
-        {
-          name: "JavaScript",
-          iconifyClass: "logos-javascript",
-        },
-        {
-          name: "Bootstrap",
-          iconifyClass: "devicon-bootstrap",
-        },
-      ],
-    },
-    {
-      name: "Login Form",
-      url: "https://delicate-croissant-270ede.netlify.app/",
-      description:
-        "Login Form made with ExpressJS and validate the email and password using JWT auth.",
-      languages: [
-        {
-          name: "React.js",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Bootstrap",
-          iconifyClass: "devicon-bootstrap",
-        },
-        {
-          name: "Node.js",
-          iconifyClass: "devicon-nodejs",
-        },
-        {
-          name: "Express.js",
-          iconifyClass: "devicon-express",
-        },
-        {
-          name: "MongoDB",
-          iconifyClass: "logos-mongodb",
-        },
-      ],
-    },
-    {
-      name: "Calculator App",
-      url: "https://balakrishnan-b10.github.io/JavaScript-calculator/",
-      description:
-        "A Calculator webapp made with ExpressJS and Postman endpoints.",
-      languages: [
-        {
-          name: "Node.js",
-          iconifyClass: "devicon-nodejs",
-        },
-        {
-          name: "Express.js",
-          iconifyClass: "devicon-express",
-        },
-        {
-          name: "Postman",
-          iconifyClass: "devicon-postman",
-        },
-      ],
-    },
-    {
-      name: "Prime Number",
-      url: "https://balakrishnan-b10.github.io/prime-number/",
-      description:
-        "Prime number and Factorial number made with ReactJS, MongoDB,Nodejs, Expressjs.",
-      languages: [
-        {
-          name: "React.js",
-          iconifyClass: "logos-react",
-        },
-        {
-          name: "Bootstrap",
-          iconifyClass: "devicon-bootstrap",
         },
         {
           name: "Node.js",
