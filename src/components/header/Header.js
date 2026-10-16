@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
@@ -33,18 +33,10 @@ function Header(props) {
 
   const link = settings.isSplash ? "/splash" : "home";
 
-  const [currTheme, setCurrTheme] = useState(props.theme);
-
   function changeTheme() {
-    if (currTheme === "light") {
-            props.setTheme("dark");
-      localStorage.setItem("theme", "dark");
-      setCurrTheme("dark");
-    } else {
-      props.setTheme("light");
-      localStorage.setItem("theme", "light");
-      setCurrTheme("light");
-    }
+    const nextTheme = props.theme.name === "light" ? "dark" : "light";
+    props.setTheme(nextTheme);
+    localStorage.setItem("theme", nextTheme);
   }
 
   const icon =

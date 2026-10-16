@@ -33,3 +33,27 @@
     margin-bottom: 0px;
   }
 }
+
+.icon-grey-mode {
+  color: grey !important;
+}
+.icon-grey-mode svg,
+.icon-grey-mode .iconify {
+  color: grey !important;
+  fill: grey !important;
+}
+.icon-grey-mode svg path {
+  fill: grey !important;
+}
+
+.icon-dark-mode {
+  color: #111827 !important;
+}
+.icon-dark-mode svg,
+.icon-dark-mode .iconify {
+  color: #111827 !important;
+  fill: #111827 !important;
+}
+.icon-dark-mode svg path {
+  fill: #111827 !important;
+}

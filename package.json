@@ -4,11 +4,12 @@
   "name": "opportfolio",
   "version": "1.2.0",
   "scripts": {
+    "start": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
     "test": "react-scripts test"
   },
   "dependencies": {

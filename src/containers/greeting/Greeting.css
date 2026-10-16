@@ -29,21 +29,22 @@
 }
 
 .greeting-text {
-  margin-top: 110px;
-  font-size: 70px;
-  line-height: 5px;
+  margin-top: 90px;
+  font-size: 56px;
+  line-height: 1.1;
+  margin-bottom: 20px;
   font-family: "Google Sans Bold";
 }
 
 .greeting-nickname {
-  font-size: 30px;
+  font-size: 26px;
   line-height: 0px;
   font-family: "Google Sans Bold Italic";
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 20px;
+  line-height: 32px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
 }
@@ -73,11 +74,13 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 44px;
+    margin-top: 50px;
   }
 
   .greeting-text-p {
-    font-size: 20px;
+    font-size: 17px;
+    line-height: 28px;
   }
 
   .greet-main {
